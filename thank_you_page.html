@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+
+<!-- MarketingStick Code Snippet 1 -->
+<script type="text/javascript">var mstickPageStart = (new Date()).getTime();</script>
+<!-- MarketingStick End Code Snippet 1 -->
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>MarketingStick Thank You Page Example</title>
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+<style type="text/css">
+	.main{
+		width:960px;
+		margin:0 auto;
+		padding-top:50px;
+		text-align:center;
+	}
+</style>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<!-- MarketingStick Code Snippet 2 -->
+<!-- start MarketingStick -->
+<script type="text/javascript">
+var _marketingStick=new function(){var a=false;this.track_conversion=function(){a=true};this.is_converted=function(){return a};
+this.go=function(){if(typeof marketingStick.init==="function"){marketingStick.init("YOUR_KEY_HERE");if(a){marketingStick.track_conversion()}}else{setTimeout(function(){_marketingStick.go()},300)}}};
+var marketingStick=_marketingStick;(function(){function a(){var c=document.createElement("script");c.type="text/javascript";c.async=true;
+c.src=("https:"==document.location.protocol?"https://b170.https":"http://b170.http")+".cdn.softlayer.net/80B170/cdn.marketingstick.com/track/v1/mstick.min.js";
+var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(c,b)}if(window.attachEvent){window.attachEvent("onload",a)}else{window.addEventListener("load",a,false)}
+_marketingStick.go()})();
+</script>
+<!-- end MarketingStick -->
+<!-- MarketingStick End Code Snippet 2 -->
+
+</head>
+<body>
+	<div class="main">
+		<h1>Thanks for signing up</h1>
+	</div>
+<script type="text/javascript">
+	$(function(){
+		//MarketingStick Code Snippet 3
+			
+		//You should place the tracking code in an document.ready fuction like this one
+		marketingStick.track_conversion();
+		//MarketingStick End Code Snippet 3
+		
+		/*
+		 * setTimeout(function(){
+		 *     window.location.href = "/"; //Useful for redirecting customer after we track them 
+		 * }, 500);
+		 *
+		*/
+	});
+</script>
+</body>
+</html>
