@@ -11,4 +11,4 @@ A list below shows you the examples we provide:
 
 You can reach us anytime for support at [http://support.marketingstick.com](http://support.marketingstick.com)
 
-Our getting started video on youtube [http://youtube.com/watch?v=ZBLN2xHGthw](http://youtube.com/watch?v=ZBLN2xHGthw)
+Our getting started video on youtube [http://youtube.com/watch?v=Z6f5j-VAQKE](http://youtube.com/watch?v=Z6f5j-VAQKE)
